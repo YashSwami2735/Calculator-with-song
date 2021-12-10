@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  <link rel="stylesheet" href="CSS\style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Italianno&family=Satisfy&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+  <h1 class="name"> Calculator </h1>;
+
+    <div class="first">
+      <input type="text" value ="" id="result" placeholder="result"  />
+      <input class="b" type="button" value ="C" onclick="clearScreen()"  />
+    </div>
+
+    <div class="second">
+     <input type="button" value ="1" onclick="yami('1')"  />
+     <input type="button" value ="2" onclick="yami('2')" />
+     <input type="button" value ="3" onclick="yami('3')" />
+     <input type="button" value ="+" onclick="yami('+')" />
+    </div>
+
+    <div class="third">
+      <input type="button" value ="4" onclick="yami('4')"  />
+      <input type="button" value ="5" onclick="yami('5')"  />
+      <input type="button" value ="6" onclick="yami('6')"  />
+      <input type="button" value ="-" onclick="yami('-')"  />
+    </div>
+
+      <div class="forth">
+        <input type="button" value ="7" onclick="yami('7')"  />
+        <input type="button" value ="8" onclick="yami('8')"  />
+        <input type="button" value ="9" onclick="yami('9')"  />
+        <input type="button" value ="*" onclick="yami('*')"  />
+        </div>
+
+        <div class="fifth">
+          <input type="button" value ="/" onclick="yami('/')"  />
+          <input type="button" value ="0" onclick="yami('0')"  />
+          <input type="button" value ="." onclick="yami('.')"  />
+          <input type="button" value ="=" onclick="result.value = eval(result.value)"  />
+        </div>
+
+    <script type="text/javascript" src="index.js"> </script>
+
+  </body>
+</html>

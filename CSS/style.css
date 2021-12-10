@@ -1,0 +1,42 @@
+body{
+  background-color: #B0E0E6;
+  text-align: center;
+}
+
+.name{
+  font-family: 'Gwendolyn', cursive;
+  font-size: 150px;
+  color: #800080;
+   text-shadow: 2px 2px #FF0000;
+}
+
+input{
+  color: red;
+  font-size: 50px;
+  cursor: pointer;
+  width: 125px;
+  height: 80px;
+  background-color: black;
+  border-radius: 20px;
+
+}
+
+.first, .second, .third, .forth, .fifth{
+
+     margin-bottom: 20px;
+}
+
+input[type="text"]{
+  width: 350px;
+  text-align: center;
+  font-size: 40px;
+}
+
+input[type="button"]:hover {
+  background-color: pink;
+}
+
+.b{
+   color: blue;
+   background-color: #778899;
+}
